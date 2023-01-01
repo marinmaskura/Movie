@@ -68,7 +68,7 @@ img {
 /* Navbar end */
 /* Banner part start*/
 #banner {
-  background: url(/images/banner-bg.jpg) no-repeat center/cover;
+  background: url(../images/banner-bg.jpg) no-repeat center/cover;
 }
 #banner .overlay {
   padding-top: 185px;

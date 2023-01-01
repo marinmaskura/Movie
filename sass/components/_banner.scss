@@ -2,7 +2,7 @@
 @import "../mixins/_mixin";
 /* Banner part start*/
 #banner{
-    background: url(/images/banner-bg.jpg) no-repeat center/cover;
+    background: url(../images/banner-bg.jpg) no-repeat center/cover;
     .overlay{
         padding-top: 185px;
         background: linear-gradient(82.06deg, rgba(1, 1, 1, 0.62) 46.14%, rgba(31, 169, 180, 0) 101.22%);
