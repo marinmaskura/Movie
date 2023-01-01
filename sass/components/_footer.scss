@@ -1,0 +1,95 @@
+@import "../variable/_variable";
+@import "../mixins/_mixin";
+@import "../base/common";
+
+/*------footer start------*/
+footer {
+    padding-top: 80px;
+    background: #101C2E;
+
+    .footer_icon {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 15px;
+
+        i {
+            color: $white;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all linear .3s;
+            cursor: pointer;
+
+            &:hover {
+                border: 1px solid $red;
+                color: $red;
+            }
+        }
+    }
+
+    .paragraph {
+        padding-top: 50px;
+
+        .image {
+            max-width: 100%;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+
+            img {
+                object-fit: cover
+            }
+
+            p {
+                @include paragraph(#E4E4E4, $inter);
+                padding-bottom: 34px;
+            }
+        }
+    }
+
+    .information {
+        padding-top: 50px;
+
+        h6 {
+            font-family: $inter;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        ul {
+            padding: 0;
+
+            li {
+                color: #E4E4E4;
+                font-family: $inter;
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+    }
+    .skillTest{
+        margin-top: 34px;
+        text-align: center;
+        padding-top: 26px;
+        padding-bottom: 19px;
+        background: #080F18;
+        p {
+            font-family: 'Jura';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            span{
+                color: #FFAB34;
+            }
+        }
+    }
+}
+
+/*------footer end------*/

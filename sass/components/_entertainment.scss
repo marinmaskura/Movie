@@ -1,0 +1,38 @@
+@import '../variable/variable';
+@import '../mixins/mixin';
+@import '../base/common';
+
+#entertainment{
+    padding: 122px 0;
+    background: $bg-color;
+    h3{
+        font-family: $inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 1.2;
+        color: #FFFFFF;
+    }
+    p{
+        @include paragraph($white, $poppins);
+        padding-top: 33px;
+        padding-bottom: 23px;
+    }
+    .banner_btn{
+        a{
+            @include common-button
+        }
+    }
+    .entertainment_img{
+        height: 367px;
+        width: 504px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-left: 40px !important;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

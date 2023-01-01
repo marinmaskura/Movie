@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./images/favicon.png" type="icon/image">
+    <title>Movie sass project</title>
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- All google fonts start -->
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- All Google fonts end -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/progress.css">
+	<link rel="stylesheet" href="css/venobox.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Nav Part Star -->
+	<nav class="navbar navbar-expand-lg" id="navbar">
+		<div class="container">
+		  <div class="logo">
+			<a class="navbar-brand" href="#">
+				<img class="img-fluid w-50" src="./images/logo.png" alt="images">
+			  </a>
+		  </div>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<!-- <span class="navbar-toggler-icon"></span> -->
+		  </button>
+		  <button class="animation_close_btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+			<!-- <i class="fas fa-bars"></i> -->
+			<span class="line_1"></span>
+			<span class="line_2"></span>
+			<span class="line_3"></span>
+		  </button> 
+		  <!-- btn btn-primary -->
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0 main_manu">
+			  <li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Portfolio</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Service</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Blog</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+		<!-- Side menu start -->
+
+		<div class="offcanvas offcanvas-start d-lg-none" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+			<!-- <div class="offcanvas-header">
+			  <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+				<a href="index.html">
+				  <img class="img-fluid" src="./images/favicon.png" alt="image">
+				</a>
+			  </h5>
+			  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div> -->
+			<div class="offcanvas-body">
+			  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main_menu">
+				<li class="nav-item">
+				  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Service</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Blog</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Contact</a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		  <!-- Side menu end -->
+	</nav>
+	
+	<!-- Nav Part End -->
+	<!-- Banner part start -->
+    <section id="banner">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="banner_info">
+                            <h1><span>THE</span> SANdMAN</h1>
+                            <h4>It’s Official: More Episodes Are Coming</h4>
+                            <p>After years of impisonment, Morpheus - The King of Dreams- embarks on a journey across worlds to fine what was stolen from him and resrore his power</p>
+                            <div class="banner_btn">
+                                <a href="#">
+                                    <span>
+                                    <i class="fa-solid fa-play"></i>
+                                </span> Play</a>
+                                <a href="#">
+                                    <span class="info">
+                                        <i class="fa-solid fa-info"></i>                                         
+                                    </span>
+                                 More info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider  -->
+            <div class="movie_slider">
+                <div class="slide_item">
+                    <div class="movie_item">
+                        <div class="image">
+                            <img class="img-fluid" src="./images/slide-1.jpg" alt="image">
+                            <div class="movie_overlay">
+                                <a href="#">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <!-- 02 -->
+                <div class="slide_item">
+                    <div class="movie_item">
+                        <div class="image">
+                            <img class="img-fluid" src="./images/slide-2.jpg" alt="image">
+                            <div class="movie_overlay">
+                                <a href="#">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <!-- 03 -->
+                <div class="slide_item">
+                    <div class="movie_item">
+                        <div class="image">
+                            <img class="img-fluid" src="./images/slide-3.jpg" alt="image">
+                            <div class="movie_overlay">
+                                <a href="#">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <!-- 04 -->
+                <div class="slide_item">
+                    <div class="movie_item">
+                        <div class="image">
+                            <img class="img-fluid" src="./images/slide-4.jpg" alt="image">
+                            <div class="movie_overlay">
+                                <a href="#">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <!-- 05 -->
+                <div class="slide_item">
+                    <div class="movie_item">
+                        <div class="image">
+                            <img class="img-fluid" src="./images/slide-5.jpg" alt="image">
+                            <div class="movie_overlay">
+                                <a href="#">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <!-- 06 -->
+                <div class="slide_item">
+                    <div class="movie_item">
+                        <div class="image">
+                            <img class="img-fluid" src="./images/slide-6.jpg" alt="image">
+                            <div class="movie_overlay">
+                                <a href="#">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <!-- 07 -->
+                <div class="slide_item">
+                    <div class="movie_item">
+                        <div class="image">
+                            <img class="img-fluid" src="./images/slide-7.jpg" alt="image">
+                            <div class="movie_overlay">
+                                <a href="#">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner part end -->
+    <!-- Entertainment part start -->
+	<section id="entertainment">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h3>We Focus on Quality
+						Entertainment</h3>
+					<p>Our main focus is to provide the best entertainment possible for our players. we place key emphasis on creating movies that are of a high quality in every way possible. This means that we endure that all our movies are engoging. our feature uniqe and captivating and  we leave it up to the experts. Reshot's huge collection of free stuff is brought to you by</p>
+					<div class="banner_btn">
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="entertainment_img">
+						<img class="img-fluid" src="./images/entertainment-img.jpg" alt="images">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- Entertainment part end -->
+    <!-- footer part start -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-lg-6">
+					<div class="logo">
+						<img class="img-fluid w-25" src="./images/logo.png" alt="logo">
+					</div>
+				</div>
+				<div class="col-6 col-lg-6">
+					<div class="footer_icon">
+						<i class="fa-brands fa-youtube"></i>
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-brands fa-facebook-f"></i>
+						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-linkedin-in"></i>
+					</div>
+				</div>
+				<div class="col-lg-5">
+                    <div class="paragraph">
+                        <div class="image">
+                            <img class="img-fluid" src="images/footer-img.jpg" alt="">
+                            <p> Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years
+                            </p>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-lg-3">
+                    <div class="information">
+                        <h6>Information Company</h6>
+                        <ul>
+                            <li>About US</li>
+                            <li>Our Impact</li>
+                            <li>Digital Payments</li>
+                            <li>Membership</li>
+                            <li>Terms & Conditions</li>
+                        </ul>
+                    </div>
+                </div>
+				<div class="col-lg-2">
+                    <div class="information">
+                        <h6>Account</h6>
+                        <ul>
+                            <li>FAQ
+                            <li>Track Your Order</li>
+                            <li>Returns & Refunds</li>
+                            <li>Take Our Feedback</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+				<div class="col-lg-2">
+                    <div class="information">
+                        <h6>Info</h6>
+                        <ul>
+                            <li>Terms & Conditions
+                            <li>Privacy Policy</li>
+                            <li>Sitrmap</li>
+                            <li>Privacy Policy</li>
+                            <li>Sitemap</li>         
+                        </ul>
+                    </div>
+                </div>
+			</div>
+		</div>
+        
+        <div class="skillTest">
+            <p>2022 SkillTest. All rights reserved <span>Creative IT</span> </p>
+        </div>
+	</footer>
+    <!-- footer part end -->
+	
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/tilt.jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script> 
+</body>
+</html>
