@@ -1,0 +1,560 @@
+
+
+/* Device SM */
+@media (max-width:575.98px) {
+
+    /*===================================================
+                Navbar Part Start
+=================================================== */
+    .animation_close_btn {
+        width: 35px;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 3px;
+        background: transparent;
+        border: none;
+    }
+
+    .animation_close_btn span {
+        width: 100%;
+        background: #fff;
+        height: 2px;
+        border-radius: 2px;
+        transition: all linear.1s;
+    }
+
+    .animation_close_btn span.rotate_1 {
+        transform: rotate(45deg) translateY(12px);
+    }
+
+    .animation_close_btn span.hide {
+        transform: translateX(-15px);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .animation_close_btn span.rotate_2 {
+        transform: rotate(-45deg) translateY(-12px);
+    }
+
+    #navbar ul.navbar-nav li a {
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.2;
+        text-align: left;
+        transition: all linear 0.3s;
+        position: relative;
+    }
+
+    #navbar .offcanvas.offcanvas-start {
+        width: 80%;
+        height: 325px;
+        position: absolute;
+        top: 75px;
+        left: 0;
+    }
+
+    #navbar .offcanvas-body {
+        width: 100%;
+        height: 300px;
+        background: linear-gradient(82.06deg, rgba(1, 1, 1, 0.62) 46.14%, rgba(31, 169, 180, 0) 101.22%);
+    }
+
+    .offcanvas {
+        background-color: transparent;
+    }
+
+    /*===================================================
+                Navbar Part Start
+=================================================== */
+    /*===================================================
+                Banner Part Start
+=================================================== */
+    .banner_info {
+        text-align: center;
+    }
+
+    #banner .overlay .banner_info h1 {
+        font-family: "Kaushan Script", cursive;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 112%;
+        text-align: center;
+        letter-spacing: 0.15em;
+    }
+
+
+
+
+    /* #banner .overlay .movie_slider .slide_item .image {
+        position: relative;
+        height: 60px;
+        width: 62px;
+    } */
+
+    #banner .overlay .banner_info .banner_btn a {
+        font-size: 18px;
+        line-height: 1;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    /*===================================================
+                Banner Part End
+=================================================== */
+    /*===================================================
+                Entertainment Part Start
+=================================================== */
+    #entertainment .col-lg-6 {
+        text-align: center;
+    }
+
+    #entertainment .entertainment_img {
+        height: 220px;
+        width: auto;
+        margin-left: 0 !important;
+        margin-top: 40px;
+    }
+
+    /*===================================================
+                Entertainment Part End
+=================================================== */
+    /*===================================================
+                Footer Part Start
+=================================================== */
+    footer .footer_icon {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 8px;
+    }
+
+    .w-25 {
+        width: 75% !important;
+    }
+
+    footer .footer_icon i {
+        color: #ffffff;
+        min-width: 28px;
+        width: 28px;
+        height: 28px;
+        font-size: 14px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all linear 0.3s;
+        cursor: pointer;
+    }
+
+
+    .skillTest {
+        background: #080F18;
+    }
+    footer .paragraph .image {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    /*===================================================
+                Footer Part End
+=================================================== */
+}
+
+
+
+
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    /*===================================================
+                Navbar Part Start
+=================================================== */
+    .animation_close_btn {
+        width: 35px;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 3px;
+        background: transparent;
+        border: none;
+    }
+
+    .animation_close_btn span {
+        width: 100%;
+        background: #fff;
+        height: 2px;
+        border-radius: 2px;
+        transition: all linear.1s;
+    }
+
+    .animation_close_btn span.rotate_1 {
+        transform: rotate(45deg) translateY(12px);
+    }
+
+    .animation_close_btn span.hide {
+        transform: translateX(-15px);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .animation_close_btn span.rotate_2 {
+        transform: rotate(-45deg) translateY(-12px);
+    }
+
+    #navbar ul.navbar-nav li a {
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.2;
+        text-align: left;
+        transition: all linear 0.3s;
+        position: relative;
+    }
+
+    #navbar .offcanvas.offcanvas-start {
+        width: 80%;
+        height: 325px;
+        position: absolute;
+        top: 75px;
+        left: 0;
+    }
+
+    #navbar .offcanvas-body {
+        width: 100%;
+        height: 300px;
+        background: linear-gradient(82.06deg, rgba(1, 1, 1, 0.62) 46.14%, rgba(31, 169, 180, 0) 101.22%);
+    }
+
+    .offcanvas {
+        background-color: transparent;
+    }
+
+    /*===================================================
+            Navbar Part Start
+=================================================== */
+    /*===================================================
+            Banner Part Start
+=================================================== */
+.banner_info {
+    text-align: center;
+}
+
+#banner .overlay .banner_info h1 {
+    font-family: "Kaushan Script", cursive;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 112%;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+
+
+
+/* #banner .overlay .movie_slider .slide_item .image {
+    position: relative;
+    height: 60px;
+    width: 62px;
+} */
+
+#banner .overlay .banner_info .banner_btn a {
+    font-size: 18px;
+    line-height: 1;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+    /*===================================================
+            Banner Part End
+    =================================================== */
+
+    /*===================================================
+            Entertainment Part Start
+    =================================================== */
+    #entertainment .col-lg-6 {
+        text-align: center;
+    }
+
+    #entertainment .entertainment_img {
+        height: 367px;
+        width: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-left: 0 !important;
+    }
+
+    /*===================================================
+            Entertainment Part End
+=================================================== */
+    /*===================================================
+            Footer Part Start
+=================================================== */
+    footer .footer_icon {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 8px;
+    }
+
+    .w-25 {
+        width: 75% !important;
+    }
+
+    footer .footer_icon i {
+        color: #ffffff;
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all linear 0.3s;
+        cursor: pointer;
+    }
+
+    .skillTest {
+        background: #080F18;
+    }
+
+    /*===================================================
+            Footer Part End
+=================================================== */
+}
+
+/* Device MD */
+@media (min-width:768px) and (max-width:991.98px) {
+
+    /*===================================================
+                Navbar Part Start
+=================================================== */
+    .animation_close_btn {
+        width: 35px;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 3px;
+        background: transparent;
+        border: none;
+    }
+
+    .animation_close_btn span {
+        width: 100%;
+        background: #fff;
+        height: 2px;
+        border-radius: 2px;
+        transition: all linear.1s;
+    }
+
+    .animation_close_btn span.rotate_1 {
+        transform: rotate(45deg) translateY(12px);
+    }
+
+    .animation_close_btn span.hide {
+        transform: translateX(-15px);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .animation_close_btn span.rotate_2 {
+        transform: rotate(-45deg) translateY(-12px);
+    }
+
+    #navbar ul.navbar-nav li a {
+        font-family: "Poppins", sans-serif;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.2;
+        text-align: left;
+        transition: all linear 0.3s;
+        position: relative;
+    }
+
+    #navbar .offcanvas.offcanvas-start {
+        width: 80%;
+        height: 325px;
+        position: absolute;
+        top: 75px;
+        left: 0;
+    }
+
+    #navbar .offcanvas-body {
+        width: 100%;
+        height: 300px;
+        background: linear-gradient(82.06deg, rgba(1, 1, 1, 0.62) 46.14%, rgba(31, 169, 180, 0) 101.22%);
+    }
+
+    .offcanvas {
+        background-color: transparent;
+    }
+
+    /*===================================================
+            Navbar Part Start
+=================================================== */
+    /*===================================================
+            Banner Part Start
+=================================================== */
+    .banner_info {
+        text-align: center;
+    }
+
+    #banner .overlay .banner_info h1 {
+        font-family: "Kaushan Script", cursive;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 112%;
+        text-align: center;
+        letter-spacing: 0.15em;
+    }
+
+
+
+    /*===================================================
+            Banner Part End
+=================================================== */
+    /*===================================================
+            Entertainment Part Start
+=================================================== */
+    #entertainment .col-lg-6 {
+        text-align: center;
+    }
+
+    #entertainment .entertainment_img {
+        height: 367px;
+        width: 700px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-left: 0 !important;
+    }
+
+    /*===================================================
+            Entertainment Part End
+=================================================== */
+    /*===================================================
+            Footer Part Start
+=================================================== */
+    footer .footer_icon {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 8px;
+    }
+
+    .w-25 {
+        width: 75% !important;
+    }
+
+    footer .footer_icon i {
+        color: #ffffff;
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all linear 0.3s;
+        cursor: pointer;
+    }
+
+
+
+    .skillTest {
+        background: #080F18;
+    }
+
+    /*===================================================
+            Footer Part End
+=================================================== */
+}
+
+/* Device LG */
+@media (min-width:992px) and (max-width:1199.98px) {
+/*===================================================
+            Banner Part Start
+=================================================== */
+#banner .overlay .banner_info .banner_btn a {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 112%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px 20px;
+    color: #ffffff;
+    background: #244B49;
+    transition: all linear 0.3s;
+    margin-right: 20px;
+    display: inline-flex;
+    gap: 5px;
+}
+#banner .overlay .movie_slider .slide_item .image .movie_overlay a {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+/*===================================================
+            Banner Part End
+=================================================== */
+/*===================================================
+            Footer Part End
+=================================================== */
+    #entertainment .entertainment_img {
+        height: 367px;
+        width: 480px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-left: 0 !important;
+    }
+/*===================================================
+            Footer Part End
+=================================================== */
+}
+
+/* Device XL */
+@media (min-width:1200px) and (max-width:1399.98px) {
+
+}
+
+/* Device XXL */
+@media (min-width:1400px)  {}
